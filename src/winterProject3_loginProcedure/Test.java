@@ -22,7 +22,6 @@ public class Test {
 			//SQL 수행
 			Statement stat = con.createStatement(); //아마 커넥터로 db접근과 관련한 무언가의 일을...
 			ResultSet rs = null; //이게머지.. 
-			
 
 			
 			//헉 추가됏다!!!!!! 
