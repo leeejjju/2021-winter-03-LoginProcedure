@@ -16,6 +16,7 @@ public class DataBase {
 			//SQLite JDBM 체크
 			Class.forName("org.sqlite.JDBC"); //SQLite를 사용하겠다는 문장
 			con = DriverManager.getConnection(dbFileUrl);
+			System.out.println("데이터베이스 연결에 성공했습니다.");
 		}catch (Exception e){
 			
 		}

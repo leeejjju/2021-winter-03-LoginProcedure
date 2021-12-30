@@ -4,7 +4,7 @@ public class Datatata {
 	
 	private String ID;
 	private String PW;
-	private int BIRTH;
+	private String BIRTH;
 	private String GENDER;
 	private String EMAIL;
 	
@@ -20,10 +20,10 @@ public class Datatata {
 	public void setPW(String pW) {
 		PW = pW;
 	}
-	public int getBIRTH() {
+	public String getBIRTH() {
 		return BIRTH;
 	}
-	public void setBIRTH(int bIRTH) {
+	public void setBIRTH(String bIRTH) {
 		BIRTH = bIRTH;
 	}
 	public String getGENDER() {
